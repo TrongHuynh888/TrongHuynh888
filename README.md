@@ -122,11 +122,11 @@ const HuynhPhuTrong = {
 
 ---
 
-## 👾 Visitors
+## 💬 Quote of the Day
 
 <div align="center">
 
-<img src="https://visitcount.itsvg.in/api?id=TrongHuynh888&label=Profile%20Views&color=12&style=5" alt="Visitor Count" />
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
 
 </div>
 
