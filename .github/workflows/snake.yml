@@ -1,0 +1,36 @@
+# GitHub Action để tự động tạo Snake animation từ contribution graph
+# Chạy mỗi ngày lúc 00:00 UTC hoặc khi bạn trigger thủ công
+
+name: Generate Snake Animation
+
+on:
+  # Chạy tự động mỗi ngày
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Cho phép chạy thủ công từ tab Actions
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      # Tạo snake SVG từ contribution graph
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # Push kết quả lên branch "output"
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
