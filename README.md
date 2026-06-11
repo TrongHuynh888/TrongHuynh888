@@ -97,11 +97,16 @@ const HuynhPhuTrong = {
 
 ---
 
-## 🏆 GitHub Trophies
+## 📌 Featured Projects
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=TrongHuynh888&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<a href="https://github.com/TrongHuynh888/QuanLyKho">
+  <img height="105em" src="https://github-readme-stats.vercel.app/api/pin/?username=TrongHuynh888&repo=QuanLyKho&theme=tokyonight&show_owner=true" />
+</a>
+<a href="https://github.com/TrongHuynh888/TramPhim">
+  <img height="105em" src="https://github-readme-stats.vercel.app/api/pin/?username=TrongHuynh888&repo=TramPhim&theme=tokyonight&show_owner=true" />
+</a>
 
 </div>
 
@@ -121,7 +126,7 @@ const HuynhPhuTrong = {
 
 <div align="center">
 
-![Visitor Count](https://profile-counter.glitch.me/TrongHuynh888/count.svg)
+<img src="https://visitcount.itsvg.in/api?id=TrongHuynh888&label=Profile%20Views&color=12&style=5" alt="Visitor Count" />
 
 </div>
 
