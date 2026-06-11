@@ -65,9 +65,9 @@ const HuynhPhuTrong = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/TrongHuynh888/TrongHuynh888/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/TrongHuynh888/TrongHuynh888/blob/output/github-snake.svg" />
-  <img alt="github-snake" src="https://github.com/TrongHuynh888/TrongHuynh888/blob/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TrongHuynh888/TrongHuynh888/output/dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TrongHuynh888/TrongHuynh888/output/dist/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/TrongHuynh888/TrongHuynh888/output/dist/github-snake.svg" />
 </picture>
 
 </div>
@@ -101,7 +101,7 @@ const HuynhPhuTrong = {
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=TrongHuynh888&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=TrongHuynh888&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -111,7 +111,7 @@ const HuynhPhuTrong = {
 
 <div align="center">
 
-[![TrongHuynh888's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=TrongHuynh888&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TrongHuynh888&theme=react-dark&hide_border=true&area=true&bg_color=1a1b27" alt="TrongHuynh888's github activity graph" />
 
 </div>
 
@@ -121,7 +121,7 @@ const HuynhPhuTrong = {
 
 <div align="center">
 
-![Visitor Count](https://moe-counter.glitch.me/get/@TrongHuynh888?theme=rule34)
+![Visitor Count](https://profile-counter.glitch.me/TrongHuynh888/count.svg)
 
 </div>
 
